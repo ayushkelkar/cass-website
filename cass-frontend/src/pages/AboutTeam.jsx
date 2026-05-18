@@ -20,7 +20,7 @@ const EXECOM = [
     name: 'P Achyuth',
     role: 'Vice Chair',
     image: '/achyuth_panatula.jpg',
-    objectPosition: 'center top',
+    objectPosition: 'center 20%',
     links: { instagram: '', linkedin: 'https://www.linkedin.com/in/achyuth-panatula?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app', phone: '', email: 'achyuth0306@gmail.com' },
   },
   {
