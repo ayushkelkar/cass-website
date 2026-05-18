@@ -6,54 +6,63 @@ const EXECOM = [
     name: 'Dr. Bhanuprakash R',
     role: 'Faculty Advisor',
     image: 'banuprakash.jpeg',
+    objectPosition: 'center top',
     links: { instagram: '', linkedin: '', phone: '', email: 'r.bhanuprakash@bmsit.in' },
   },
   {
     name: 'Aditya S',
     role: 'Chair',
     image: '/aditya_s.jpeg',
+    objectPosition: 'center top',
     links: { instagram: 'https://instagram.com/aditya_428', linkedin: 'https://www.linkedin.com/in/aditya-saravana-6149b4355', phone: '', email: 'aditya19@gmail.com' },
   },
   {
     name: 'P Achyuth',
     role: 'Vice Chair',
     image: '/achyuth_panatula.jpg',
+    objectPosition: 'center top',
     links: { instagram: '', linkedin: 'https://www.linkedin.com/in/achyuth-panatula?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app', phone: '', email: 'achyuth0306@gmail.com' },
   },
   {
     name: 'Kulajeet Barman',
     role: 'Secretary',
     image: '/kulajeet_barman.jpg',
+    objectPosition: 'center top',
     links: { instagram: 'https://www.instagram.com/stevensonro4?igsh=MXZvdTBudW1qMzU4cg==', linkedin: 'https://www.linkedin.com/in/kulajeet-barman?utm_source=share_via&utm_content=profile&utm_medium=member_android', phone: '', email: 'Kulajeetofficial@gmail.com' },
   },
   {
     name: 'Sahana G',
     role: 'Treasurer',
     image: '/sahana.jpeg',
+    objectPosition: 'center top',
     links: { instagram: 'https://www.linkedin.com/in/sahana-g1', linkedin: 'https://www.instagram.com/sahaaanaaaaaa?igsh=aGJkMDM4ZjE2Y2xk', phone: '', email: 'sahanag0205@gmail.com' },
   },
   {
     name: 'Apoorva N H',
     role: 'Web Master',
     image: '/apoorva_nh.jpg',
+    objectPosition: 'center top',
     links: { instagram: 'https://www.instagram.com/apoorvahanamaratti?igsh=MTVhampobmw0bXQ1bQ==', linkedin: 'https://www.linkedin.com/in/apoorva-hanamaratti-3b674731a?utm_source=share_via&utm_content=profile&utm_medium=member_android', phone: '', email: 'apoorvahanamaratti@gmail.com' },
   },
   {
     name: 'Samruddh B Patil',
     role: 'Volcom Lead',
     image: '/samruddh.jpeg',
+    objectPosition: '30% center',
     links: { instagram: 'https://instagram.com/samruddh601', linkedin: 'https://www.linkedin.com/in/samruddh-b-patil-003909337?utm_source=share_via&utm_content=profile&utm_medium=member_android', phone: '', email: '' },
   },
   {
     name: 'Jiya Kulkarni',
     role: 'R & D Lead',
     image: '/jiya_kulkarni.jpg',
+    objectPosition: 'center top',
     links: { instagram: 'https://www.instagram.com/jiya_kulkarni.11', linkedin: 'https://www.linkedin.com/in/jiya-kulkarni-a249202a3/', phone: '', email: 'jiya11kulkarni@gmail.com' },
   },
   {
     name: 'Gururaj Reddy P',
     role: 'PR Lead',
     image: '/gururaj_reddy.jpeg',
+    objectPosition: 'center top',
     links: { instagram: 'https://www.instagram.com/gjr.19?igsh=ZTZxeXBieDNyNjBi&utm_source=qr', linkedin: 'https://www.linkedin.com/in/gururaj-reddy-37352629b?utm_source=share_via&utm_content=profile&utm_medium=member_ios', phone: '', email: 'gjr19atwork@gmail.com' },
   },
 ];
@@ -63,48 +72,56 @@ const VOLCOM = [
     name: 'Aditya BS',
     role: 'Volcom',
     image: '/aditya_bs.jpeg',
+    objectPosition: 'center 10%',
     links: { instagram: 'https://www.instagram.com/dyati.bhat04?igsh=dG9raWNwN3M0dnd5', linkedin: 'https://www.linkedin.com/in/aditya-bhat-s-593426384?utm_source=share_via&utm_content=profile&utm_medium=member_android', phone: '', email: '25ug1byec083@bmsit.in' },
   },
   {
     name: 'Satish Malladad',
     role: 'Design Team',
     image: '/satish_malladad.jpeg',
+    objectPosition: 'center top',
     links: { instagram: 'https://www.instagram.com/satish_1_4_2?igsh=MXE4MzhuaHpqYzNubw==', linkedin: 'https://www.linkedin.com/in/satish-malladad-852b86333?utm_source=share_via&utm_content=profile&utm_medium=member_android', phone: '', email: 'satishmalladad65@gmail.com' },
   },
   {
     name: 'Avanya KV',
     role: 'Events and Marketing',
     image: '/avanya_kv.jpeg',
+    objectPosition: 'center 40%',
     links: { instagram: 'https://www.instagram.com/avanya982', linkedin: 'https://www.linkedin.com/in/avanya-kv-746728374?utm_source=share_via&utm_content=profile&utm_medium=member_android', phone: '', email: 'avanyakv@gmail.com' },
   },
   {
     name: 'Sumana S',
     role: 'Volcom',
     image: '/sumana_s.jpeg',
-    links: { instagram: '', linkedin: 'https://www.linkedin.com/in/sumana-s-b43265390', phone: '', email: 'sumanas0507@gmail.com ' },
+    objectPosition: 'center top',
+    links: { instagram: '', linkedin: 'https://www.linkedin.com/in/sumana-s-b43265390', phone: '', email: 'sumanas0507@gmail.com' },
   },
   {
     name: 'Nikhil K',
     role: 'Events and Marketing',
     image: '/nikhil_k.jpeg',
+    objectPosition: 'center 50%',
     links: { instagram: 'https://www.instagram.com/nikhil_kayy?igsh=MTBsOHQwbjc5YzR4MQ==', linkedin: 'https://www.linkedin.com/in/nikhil-k-504156333?utm_source=share_via&utm_content=profile&utm_medium=member_android', phone: '', email: 'nikhilkarthik107@gmail.com' },
   },
   {
     name: 'Vanama Sai Hiranmayi',
     role: 'Design Team',
     image: '/vanama_sai_hiranmayi.jpeg',
+    objectPosition: 'center top',
     links: { instagram: '', linkedin: 'https://www.linkedin.com/in/vanama-sai-hiranmayi-934b00316?utm_source=share_via&utm_content=profile&utm_medium=member_android', phone: '', email: '24ug1byec043@bmsit.in' },
   },
   {
     name: 'Kedar Patil',
     role: 'Tech Operations',
     image: 'kedar_patil.jpg',
+    objectPosition: 'center top',
     links: { instagram: 'https://www.instagram.com/capkedar25', linkedin: '', phone: '', email: 'kedarpatil2507@gmail.com' },
   },
   {
     name: 'Ayush Kelkar',
     role: 'Tech Operations',
     image: 'ayush_kelkar.jpg',
+    objectPosition: 'center top',
     links: { instagram: 'https://www.instagram.com/heisenberg_010?igsh=MTVpNXJ3NnB2Nmkyeg==', linkedin: 'https://www.linkedin.com/in/ayush-kelkar-19289531b?utm_source=share_via&utm_content=profile&utm_medium=member_android', phone: '', email: 'ayush94klkr@gmail.com' },
   },
 ];
@@ -132,7 +149,7 @@ function TeamCard({ member }) {
         {member.image ? (
           <img src={member.image} alt={member.name}
             className="w-full h-full transition-transform duration-700 group-hover:scale-105"
-            style={{ objectFit: 'cover', objectPosition: 'center top', display: 'block' }}
+            style={{ objectFit: 'cover', objectPosition: member.objectPosition || 'center top', display: 'block' }}
             onError={e => { e.target.style.display = 'none'; e.target.nextSibling.style.display = 'flex'; }} />
         ) : null}
 
