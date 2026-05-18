@@ -11,7 +11,7 @@ const EXECOM = [
   {
     name: 'Aditya S',
     role: 'Chair',
-    image: 'aditya_s.jpg',
+    image: '/aditya_s.jpeg',
     links: { instagram: 'https://instagram.com/aditya_428', linkedin: 'https://www.linkedin.com/in/aditya-saravana-6149b4355', phone: '', email: 'aditya19@gmail.com' },
   },
   {
@@ -29,7 +29,7 @@ const EXECOM = [
   {
     name: 'Sahana G',
     role: 'Treasurer',
-    image: 'sahana.jpg',
+    image: '/sahana.jpeg',
     links: { instagram: 'https://www.linkedin.com/in/sahana-g1', linkedin: 'https://www.instagram.com/sahaaanaaaaaa?igsh=aGJkMDM4ZjE2Y2xk', phone: '', email: 'sahanag0205@gmail.com' },
   },
   {
@@ -41,7 +41,7 @@ const EXECOM = [
   {
     name: 'Samruddh B Patil',
     role: 'Volcom Lead',
-    image: 'samruddh_patil.jpg',
+    image: '/samruddh.jpeg',
     links: { instagram: 'https://instagram.com/samruddh601', linkedin: 'https://www.linkedin.com/in/samruddh-b-patil-003909337?utm_source=share_via&utm_content=profile&utm_medium=member_android', phone: '', email: '' },
   },
   {
@@ -62,37 +62,37 @@ const VOLCOM = [
   {
     name: 'Aditya BS',
     role: 'Volcom',
-    image: 'aditya_bs.png',
+    image: '/aditya_bs.jpeg',
     links: { instagram: 'https://www.instagram.com/dyati.bhat04?igsh=dG9raWNwN3M0dnd5', linkedin: 'https://www.linkedin.com/in/aditya-bhat-s-593426384?utm_source=share_via&utm_content=profile&utm_medium=member_android', phone: '', email: '25ug1byec083@bmsit.in' },
   },
   {
     name: 'Satish Malladad',
     role: 'Design Team',
-    image: 'satish_malladad.jpg',
+    image: '/satish_malladad.jpeg',
     links: { instagram: 'https://www.instagram.com/satish_1_4_2?igsh=MXE4MzhuaHpqYzNubw==', linkedin: 'https://www.linkedin.com/in/satish-malladad-852b86333?utm_source=share_via&utm_content=profile&utm_medium=member_android', phone: '', email: 'satishmalladad65@gmail.com' },
   },
   {
     name: 'Avanya KV',
     role: 'Events and Marketing',
-    image: 'avanya_kv.jpg',
+    image: '/avanya_kv.jpeg',
     links: { instagram: 'https://www.instagram.com/avanya982', linkedin: 'https://www.linkedin.com/in/avanya-kv-746728374?utm_source=share_via&utm_content=profile&utm_medium=member_android', phone: '', email: 'avanyakv@gmail.com' },
   },
   {
     name: 'Sumana S',
     role: 'Volcom',
-    image: 'sumana_s.jpg',
+    image: '/sumana_s.jpeg',
     links: { instagram: '', linkedin: 'https://www.linkedin.com/in/sumana-s-b43265390', phone: '', email: 'sumanas0507@gmail.com ' },
   },
   {
     name: 'Nikhil K',
     role: 'Events and Marketing',
-    image: 'nikhil_k.jpg',
+    image: '/nikhil_k.jpeg',
     links: { instagram: 'https://www.instagram.com/nikhil_kayy?igsh=MTBsOHQwbjc5YzR4MQ==', linkedin: 'https://www.linkedin.com/in/nikhil-k-504156333?utm_source=share_via&utm_content=profile&utm_medium=member_android', phone: '', email: 'nikhilkarthik107@gmail.com' },
   },
   {
     name: 'Vanama Sai Hiranmayi',
     role: 'Design Team',
-    image: 'vanama_sai_hiranmayi.jpg',
+    image: '/vanama_sai_hiranmayi.jpeg',
     links: { instagram: '', linkedin: 'https://www.linkedin.com/in/vanama-sai-hiranmayi-934b00316?utm_source=share_via&utm_content=profile&utm_medium=member_android', phone: '', email: '24ug1byec043@bmsit.in' },
   },
   {
