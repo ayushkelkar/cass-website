@@ -145,7 +145,7 @@ export default function Home() {
           {/* Chapter */}
           <p className="font-heading font-semibold uppercase animate-fade-up"
             style={{ fontSize:'clamp(0.85rem,2.3vw,1.25rem)', letterSpacing:'0.3em', color:'#006c42', marginBottom:'1.6rem', animationDelay:'0.38s', opacity:0 }}>
-            BMSIT &amp; M 
+            BMSITM 
           </p>
 
           {/* Divider */}
@@ -289,7 +289,7 @@ export default function Home() {
       {/* ══════════════════ MARQUEE TICKER ══════════════════ */}
       <div className="overflow-hidden py-4" style={{ background:'linear-gradient(135deg,#004d2e,#006c42)', borderTop:'1px solid rgba(255,255,255,0.1)' }}>
         <div className="flex gap-12 animate-[marquee_20s_linear_infinite] whitespace-nowrap" style={{ width:'max-content' }}>
-          {['IEEE CASS BMSIT&M','Circuits & Systems','Innovate','Lead','Inspire','Embedded Systems','IoT','Robotics','Signal Processing','IEEE CASS BMSIT&M','Circuits & Systems','Innovate','Lead','Inspire','Embedded Systems'].map((t, i) => (
+          {['IEEE CASS BMSITM','Circuits & Systems','Innovate','Lead','Inspire','Embedded Systems','IoT','Robotics','Signal Processing','IEEE CASS BMSITM','Circuits & Systems','Innovate','Lead','Inspire','Embedded Systems'].map((t, i) => (
             <span key={i} className="font-heading font-bold uppercase tracking-widest text-sm flex items-center gap-4" style={{ color:'rgba(255,255,255,0.85)' }}>
               {t} <span className="w-1.5 h-1.5 rounded-full inline-block" style={{ background:'rgba(255,255,255,0.4)' }}/>
             </span>
@@ -312,7 +312,7 @@ export default function Home() {
                 Join the Circuit Revolution.<br/>Innovate. Lead. Inspire.
               </blockquote>
               <p className="text-white/70 max-w-2xl mx-auto leading-relaxed mb-8">
-                Be part of a community that builds the future — one circuit at a time. IEEE CASS BMSIT&amp;M is where passionate engineers come together to learn, create, and lead.
+                Be part of a community that builds the future — one circuit at a time. IEEE CASS BMSITM is where passionate engineers come together to learn, create, and lead.
               </p>
               <Link to="/membership"
                 className="inline-flex items-center gap-2 px-8 py-3.5 rounded-xl font-heading font-bold uppercase tracking-wider text-sm transition-all hover:-translate-y-1 hover:shadow-[0_8px_30px_rgba(0,0,0,0.2)]"

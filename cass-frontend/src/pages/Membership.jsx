@@ -32,7 +32,7 @@ export default function Membership() {
           </div>
 
           <p className="text-gray-500 text-lg leading-relaxed mb-10 max-w-2xl mx-auto">
-            Gain access to IEEE's global network, world-class research, and a vibrant student community at BMSIT&amp;M. Be part of the circuit revolution.
+            Gain access to IEEE's global network, world-class research, and a vibrant student community at BMSITM. Be part of the circuit revolution.
           </p>
 
           <div className="flex flex-wrap gap-4 justify-center">
@@ -226,7 +226,7 @@ export default function Membership() {
               </div>
               <div className="px-8 py-5" style={{ background:'linear-gradient(135deg,#004d2e,#006c42,#00a863)' }}>
                 <div className="font-mono text-xs uppercase tracking-widest mb-1" style={{ color:'rgba(255,255,255,0.7)' }}>Chapter Tier</div>
-                <h3 className="font-heading font-bold text-white uppercase" style={{ fontSize:'1.4rem', letterSpacing:'0.04em' }}>CASS BMSIT&M Chapter</h3>
+                <h3 className="font-heading font-bold text-white uppercase" style={{ fontSize:'1.4rem', letterSpacing:'0.04em' }}>CASS BMSITM Chapter</h3>
               </div>
               <div className="p-8" style={{ background:'#fff' }}>
                 <p className="text-gray-500 text-sm mb-6">Full IEEE membership + active participation in our campus chapter.</p>

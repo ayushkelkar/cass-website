@@ -238,7 +238,7 @@ export default function AboutTeam() {
               We're not just building circuits — we're designing the future.
             </p>
             <p className="text-gray-500 leading-relaxed">
-              From micro-level innovations to macro-scale impact, IEEE CASS BMSIT&amp;M unites visionary students and passionate engineers to reshape systems, solve real-world problems, and ignite technological breakthroughs.
+              From micro-level innovations to macro-scale impact, IEEE CASS BMSITM unites visionary students and passionate engineers to reshape systems, solve real-world problems, and ignite technological breakthroughs.
             </p>
           </div>
 
@@ -261,7 +261,7 @@ export default function AboutTeam() {
               </p>
               <div className="mt-6 pt-5 border-t border-white/20 flex items-center gap-3">
                 <div className="w-8 h-px bg-white/50" />
-                <span className="font-mono text-white/60 text-xs uppercase tracking-widest">IEEE CASS BMSIT&M</span>
+                <span className="font-mono text-white/60 text-xs uppercase tracking-widest">IEEE CASS BMSITM</span>
               </div>
             </div>
           </div>
@@ -279,7 +279,7 @@ export default function AboutTeam() {
               Through <span className="font-semibold text-gray-900">technical workshops</span>, cutting-edge research, and industry collaborations, we empower future engineers to explore emerging technologies, drive meaningful change, and lead with purpose.
             </p>
             <p className="text-gray-500 leading-relaxed mb-10">
-              The IEEE Circuits and Systems Society (CASS) is a global technical organization dedicated to advancing the theory, practice, and applications of circuits and systems. Our BMSIT&amp;M chapter brings this mission to life — connecting students with world-class research, resources, and a vibrant community. Join the circuit revolution.
+              The IEEE Circuits and Systems Society (CASS) is a global technical organization dedicated to advancing the theory, practice, and applications of circuits and systems. Our BMSITM chapter brings this mission to life — connecting students with world-class research, resources, and a vibrant community. Join the circuit revolution.
             </p>
 
             <div ref={valuesRef} className="reveal grid md:grid-cols-3 gap-5">
@@ -314,7 +314,7 @@ export default function AboutTeam() {
               Our Team
             </h2>
             <p className="text-gray-500 max-w-xl mx-auto text-sm leading-relaxed">
-              Meet the dedicated students and faculty leading IEEE CASS at BMSIT&amp;M.
+              Meet the dedicated students and faculty leading IEEE CASS at BMSITM.
             </p>
           </div>
 

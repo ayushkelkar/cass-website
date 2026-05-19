@@ -9,7 +9,7 @@ const EVENTS = [
     title: 'IEEE Open Day',
     status: 'past',
     date: 'March 2026',
-    location: 'BMSIT&M Campus, Bengaluru',
+    location: 'BMSITM Campus, Bengaluru',
     
     description:
       'A celebration of technology and innovation — opening doors for students to explore the world of IEEE CASS. Featured live project demonstrations, chapter overviews, interactive sessions with senior members, and hands-on activity stalls covering circuits, signal processing, and embedded systems.',
@@ -29,9 +29,9 @@ const EVENTS = [
     title: 'Inauguration Ceremony',
     status: 'upcoming',
     date: 'June 2026',
-    location: 'Seminar Hall, BMSIT&M, Bengaluru',
+    location: 'Seminar Hall, BMSITM, Bengaluru',
     description:
-      'The official launch of the IEEE Circuits and Systems Society chapter at BMSIT&M. Featuring formal inauguration, felicitation of faculty advisors and founding members, keynote addresses by IEEE professionals, and a preview of all upcoming activities, workshops, and flagship events for the academic year. Followed by an 8-hour Hackathon',
+      'The official launch of the IEEE Circuits and Systems Society chapter at BMSITM. Featuring formal inauguration, felicitation of faculty advisors and founding members, keynote addresses by IEEE professionals, and a preview of all upcoming activities, workshops, and flagship events for the academic year. Followed by an 8-hour Hackathon',
     image: '',
     images: [],
     
@@ -43,7 +43,7 @@ const EVENTS = [
     title: 'Workshop on System Design using Verilog and FPGA',
     status: 'past',
     date: 'April 2026',
-    location: 'HDL Lab, BMSIT&M, Bengaluru',
+    location: 'HDL Lab, BMSITM, Bengaluru',
     description:
       'Conducted a hands-on workshop on Digital System Design, covering Verilog HDL fundamentals and FPGA implementation, basics of ASICs5, guiding participants through the design, synthesis, and testing of digital circuits on real hardware.',
     image: '/events/workshop1/workshop1-1.jpeg',
@@ -61,7 +61,7 @@ const EVENTS = [
     title: 'Workshop on Telecommunication Systems',
     status: 'past',
     date: '2025-2026',
-    location: 'BMSIT&M, Bengaluru',
+    location: 'BMSITM, Bengaluru',
     description:
       'The workshop covered practical applications of the Smith Chart for analyzing transmission lines at microwave frequencies — specifically impedance/admittance charts, VSWR, reflection coefficient, impedance mismatch, short/open circuits, nodes, antinodes, and stub matching.',
     image: '/events/workshop2/workshop2-1.jpeg',
