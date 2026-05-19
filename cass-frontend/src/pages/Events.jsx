@@ -20,19 +20,6 @@ const EVENTS = [
   },
   {
     id: '2',
-    title: 'Inauguration Ceremony',
-    status: 'upcoming',
-    date: 'June 2026',
-    location: 'Seminar Hall, BMSITM, Bengaluru',
-    description:
-      'The official launch of the IEEE Circuits and Systems Society chapter at BMSITM. Featuring formal inauguration, felicitation of faculty advisors and founding members, keynote addresses by IEEE professionals, and a preview of all upcoming activities, workshops, and flagship events for the academic year. Followed by an 8-hour Hackathon',
-    image: '',
-    images: [],
-    registrationLink: '#',
-    isInauguration: true,
-  },
-  {
-    id: '3',
     title: 'Workshop on System Design using Verilog and FPGA',
     status: 'past',
     date: 'April 2026',
@@ -48,7 +35,7 @@ const EVENTS = [
     registrationLink: '#',
   },
   {
-    id: '4',
+    id: '3',
     title: 'Workshop on Telecommunication Systems',
     status: 'past',
     date: '2025-2026',
@@ -60,6 +47,19 @@ const EVENTS = [
       '/events/workshop2/workshop2-2.jpeg',
     ],
     registrationLink: '#',
+  },
+  {
+    id: '4',
+    title: 'Inauguration Ceremony',
+    status: 'upcoming',
+    date: 'June 2026',
+    location: 'Seminar Hall, BMSITM, Bengaluru',
+    description:
+      'The official launch of the IEEE Circuits and Systems Society chapter at BMSITM. Featuring formal inauguration, felicitation of faculty advisors and founding members, keynote addresses by IEEE professionals, and a preview of all upcoming activities, workshops, and flagship events for the academic year. Followed by an 8-hour Hackathon',
+    image: '',
+    images: [],
+    registrationLink: '#',
+    isInauguration: true,
   },
   {
     id: '5',
