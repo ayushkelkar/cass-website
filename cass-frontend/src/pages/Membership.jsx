@@ -41,11 +41,6 @@ export default function Membership() {
               style={{ background:'linear-gradient(135deg,#004d2e,#006c42,#00a863)', boxShadow:'0 4px 20px rgba(0,108,66,0.25)' }}>
               Join IEEE Now <ExternalLink size={16}/>
             </a>
-            <a href={IEEE_CASS_URL} target="_blank" rel="noreferrer"
-              className="inline-flex items-center gap-2 px-8 py-3.5 rounded-xl font-heading font-bold uppercase tracking-wider text-sm transition-all hover:-translate-y-1"
-              style={{ background:'#fff', color:'#006c42', border:'2px solid #006c42', boxShadow:'0 4px 16px rgba(0,108,66,0.10)' }}>
-              IEEE CASS Membership <ArrowRight size={16}/>
-            </a>
           </div>
         </div>
       </section>
