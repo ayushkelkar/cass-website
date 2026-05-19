@@ -71,6 +71,22 @@ const EVENTS = [
     
     registrationLink: '#',
   },
+  {
+    // hack8 is this
+    id: '5',
+    title: '8-hour Hackathon',
+    status: 'upcoming',
+    date: 'September 2026',
+    location: 'BMSITM, Bengaluru',
+    description:
+      'Pure Hardware hackathon with different domains. Check back later for more details!',
+    image: '',
+    images: [
+      '',
+    ],
+    
+    registrationLink: '#',
+  },
 ];
 
 // ── Gallery Modal ─────────────────────────────────────────────────────────────

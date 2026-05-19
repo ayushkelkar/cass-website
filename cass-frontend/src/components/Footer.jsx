@@ -26,7 +26,7 @@ export default function Footer() {
                 <div className="font-display text-xl text-white tracking-wider">
                   IEEE <span className="text-[#006c42]">CASS</span>
                 </div>
-                <div className="font-mono text-[9px] text-gray-500 tracking-widest">BMSIT&M</div>
+                <div className="font-mono text-[9px] text-gray-500 tracking-widest">BMSITM</div>
               </div>
             </div>
             <p className="text-gray-400 text-sm leading-relaxed font-body">
@@ -88,7 +88,7 @@ export default function Footer() {
                 { label: 'IEEE CASS', url: 'https://ieee-cas.org' },
                 { label: 'IEEE Membership', url: 'https://ieee.org/membership' },
                 { label: 'IEEE Xplore', url: 'https://ieeexplore.ieee.org' },
-                { label: 'BMSIT&M', url: 'https://bmsit.ac.in' },
+                { label: 'BMSITM', url: 'https://bmsit.ac.in' },
               ].map((link) => (
                 <li key={link.url}>
                   <a
@@ -128,7 +128,7 @@ export default function Footer() {
         {/* Bottom bar */}
         <div className="mt-14 pt-6 border-t border-gray-800/50 flex flex-col md:flex-row justify-between items-center gap-3">
           <p className="text-gray-600 text-xs font-mono">
-            © {new Date().getFullYear()} IEEE Circuits and Systems Society — BMSIT&M. All rights reserved.
+            © {new Date().getFullYear()} IEEE Circuits and Systems Society — BMSITM. All rights reserved.
           </p>
           <p className="text-gray-700 text-xs font-mono">
             IEEE is the world's largest technical professional organization.

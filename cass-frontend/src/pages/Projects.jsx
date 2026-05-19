@@ -3,11 +3,12 @@ import { useReveal } from '../hooks/useReveal';
 
 const PROJECTS = [
   {
+    // This is p1
     id: '1',
     title: 'Real-Time IoT Monitoring System using ESP32 & FreeRTOS',
     status: 'finished',
     tags: ['ESP32', 'FreeRTOS', 'MQTT', 'IoT', 'WiFi', 'Embedded Systems'],
-    image: 'https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&q=80',
+    image: '/projects/p1/1.jpeg',
     shortDesc: 'Multitasking IoT node that streams real-time environmental telemetry to the cloud over MQTT with watchdog reliability.',
     description: `Designed and developed a real-time IoT monitoring system using the ESP32 microcontroller with FreeRTOS-based multitasking architecture. The system continuously collects environmental data such as temperature and humidity through sensors and transmits the telemetry data to a remote cloud server using MQTT over WiFi.
 
@@ -17,23 +18,6 @@ The system demonstrated stable task scheduling, reliable wireless communication,
     github: '',
     demo: '',
   },
-  /*
-  {
-    id: '2',
-    title: 'Gesture Controlled Bot using ESP32 and MPU6050',
-    status: 'finished',
-    tags: ['ESP32', 'MPU6050', 'Robotics', 'PWM', 'L298N', 'Wireless'],
-    image: 'https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=800&q=80',
-    shortDesc: 'Robotic vehicle driven by hand gestures — MPU6050 captures motion, ESP32 translates it into wireless motor commands.',
-    description: `Developed a gesture-controlled robotic vehicle using ESP32 microcontrollers, MPU6050 motion sensor, and wireless communication. The project uses hand gestures captured by the MPU6050 accelerometer and gyroscope sensor to control the movement of the robot in real time.
-
-The transmitting module processes motion data and sends control commands wirelessly to the receiving module, which drives DC motors using the L298N motor driver. The system enables intuitive robot control without physical buttons or joysticks.
-
-Key features include wireless gesture recognition, motor speed control using PWM, real-time directional movement, and embedded system integration. The project demonstrates applications in robotics, automation, assistive control systems, and smart wireless devices.`,
-    github: '',
-    demo: '',
-  },
-  */
 ];
 
 function ProjectCard({ project, index }) {
@@ -129,7 +113,7 @@ export default function Projects() {
             </div>
             <div className="flex gap-6">
               <div className="text-center px-6 py-4 rounded-2xl" style={{ background: 'rgba(0,108,66,0.08)', border: '1px solid rgba(0,108,66,0.2)' }}>
-                <div className="font-heading font-bold text-4xl" style={{ color: '#006c42' }}>3</div>
+                <div className="font-heading font-bold text-4xl" style={{ color: '#006c42' }}>{PROJECTS.length}</div>
                 <div className="font-mono text-xs uppercase tracking-wider text-gray-500">Projects Built</div>
               </div>
             </div>

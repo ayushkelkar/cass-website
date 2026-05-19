@@ -50,7 +50,7 @@ export default function Navbar() {
                 IEEE <span className="text-[#006c42]">CASS</span>
               </div>
               <div className="font-mono text-[11px] text-gray-500 tracking-widest uppercase">
-                BMSIT&M
+                BMSITM
               </div>
             </div>
           </Link>
