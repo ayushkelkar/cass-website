@@ -1,4 +1,4 @@
-import { useEffect, useRef } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import { BrowserRouter, Routes, Route, useLocation } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
@@ -7,15 +7,14 @@ import Events from './pages/Events';
 import Projects from './pages/Projects';
 import AboutTeam from './pages/AboutTeam';
 import Membership from './pages/Membership';
+import InaugurationGate from './components/InaugurationGate';
 
-// Scroll to top on route change
 function ScrollToTop() {
   const { pathname } = useLocation();
   useEffect(() => { window.scrollTo(0, 0); }, [pathname]);
   return null;
 }
 
-// Custom cursor
 function Cursor() {
   const dot = useRef(null);
   const ring = useRef(null);
@@ -70,12 +69,30 @@ function Cursor() {
   );
 }
 
-export default function App() {
+function AppShell() {
+  const { pathname } = useLocation();
+  const [gateDown, setGateDown] = useState(false);
+  const isHome = pathname === '/';
+
+  // Reset gate every time user navigates back to home
+  useEffect(() => {
+    if (isHome) setGateDown(false);
+  }, [pathname]);
+
+  const showChrome = !isHome || gateDown;
+
   return (
-    <BrowserRouter>
+    <>
       <ScrollToTop />
       <Cursor />
-      <div className="noise">
+
+      {isHome && !gateDown && (
+        <InaugurationGate onDone={() => setGateDown(true)}>
+          <Home />
+        </InaugurationGate>
+      )}
+
+      <div className="noise" style={{ visibility: showChrome ? 'visible' : 'hidden' }}>
         <Navbar />
         <main>
           <Routes>
@@ -88,6 +105,14 @@ export default function App() {
         </main>
         <Footer />
       </div>
+    </>
+  );
+}
+
+export default function App() {
+  return (
+    <BrowserRouter>
+      <AppShell />
     </BrowserRouter>
   );
 }
