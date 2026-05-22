@@ -113,15 +113,15 @@ const VOLCOM = [
   {
     name: 'Kedar Patil',
     role: 'Tech Operations',
-    image: 'kedar_patil.jpg',
-    objectPosition: 'center top',
+    image: 'kedar.jpeg',
+    objectPosition: 'center 80%',
     links: { instagram: 'https://www.instagram.com/capkedar25', linkedin: '', phone: '', email: 'kedarpatil2507@gmail.com' },
   },
   {
     name: 'Ayush Kelkar',
     role: 'Tech Operations',
-    image: 'ayush_kelkar.jpg',
-    objectPosition: 'center top',
+    image: 'ayush.jpeg',
+    objectPosition: 'center 30%',
     links: { instagram: 'https://www.instagram.com/heisenberg_010?igsh=MTVpNXJ3NnB2Nmkyeg==', linkedin: 'https://www.linkedin.com/in/ayush-kelkar-19289531b?utm_source=share_via&utm_content=profile&utm_medium=member_android', phone: '', email: 'ayush94klkr@gmail.com' },
   },
 ];
