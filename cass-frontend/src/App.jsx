@@ -7,7 +7,6 @@ import Events from './pages/Events';
 import Projects from './pages/Projects';
 import AboutTeam from './pages/AboutTeam';
 import Membership from './pages/Membership';
-import InaugurationGate from './components/InaugurationGate';
 
 function ScrollToTop() {
   const { pathname } = useLocation();
@@ -71,28 +70,14 @@ function Cursor() {
 
 function AppShell() {
   const { pathname } = useLocation();
-  const [gateDown, setGateDown] = useState(false);
   const isHome = pathname === '/';
-
-  // Reset gate every time user navigates back to home
-  useEffect(() => {
-    if (isHome) setGateDown(false);
-  }, [pathname]);
-
-  const showChrome = !isHome || gateDown;
 
   return (
     <>
       <ScrollToTop />
       <Cursor />
 
-      {isHome && !gateDown && (
-        <InaugurationGate onDone={() => setGateDown(true)}>
-          <Home />
-        </InaugurationGate>
-      )}
-
-      <div className="noise" style={{ visibility: showChrome ? 'visible' : 'hidden' }}>
+      <div className="noise">
         <Navbar />
         <main>
           <Routes>
