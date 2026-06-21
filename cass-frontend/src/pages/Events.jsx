@@ -81,8 +81,24 @@ const EVENTS = [
     registrationLink: '#',
   },
   {
-    // hack8 is this
+    // sop is this. wx is xth week (w1 is week 1, and so on)
     id: '5',
+    title: 'Summer Of Projects',
+    status: 'upcoming',
+    date: 'July 25th (Week 1), Aug 1st (Week 2), Aug 8th (Week 3), Aug 15th (Week 4)',
+    location: 'BMSITM, Bengaluru',
+    description:
+      'Dive into hands-on robotics starting with the fundamentals — electronics, embedded logic, programming basics, and building your first IR-based line follower bot. From there, level up to a Bluetooth-controlled FPV robo soccer bot using MIT App Inventor and an ESP32-CAM for live video feed and wireless control. Next, get into computer vision with a human-tracking bot that autonomously follows and races using FPV-based object detection. Wrap it all up by building a QR-code-reading maze solver that navigates autonomously using path selection algorithms and onboard FPV navigation.',
+    image: '',
+    images: [
+      '',
+    ],
+    
+    registrationLink: '#',
+  },
+  {
+    // hack8 is this
+    id: '6',
     title: '8-hour Hackathon',
     status: 'upcoming',
     date: 'September 2026',
