@@ -84,7 +84,7 @@ const EVENTS = [
     // sop is this. wx is xth week (w1 is week 1, and so on)
     id: '5',
     title: 'Summer Of Projects',
-    status: 'upcoming',
+    status: 'past',
     date: 'July 25th (Week 1), Aug 1st (Week 2), Aug 8th (Week 3), Aug 15th (Week 4)',
     location: 'BMSITM, Bengaluru',
     description:
@@ -99,12 +99,12 @@ const EVENTS = [
   {
     // hack8 is this
     id: '6',
-    title: '8-hour Hackathon',
+    title: 'Circuitry',
     status: 'upcoming',
-    date: 'September 2026',
+    date: 'December 2026',
     location: 'BMSITM, Bengaluru',
     description:
-      'Pure Hardware hackathon with different domains. Check back later for more details!',
+      'A 24-hour pure hardware hackathon with different domains. Check back later for more details!',
     image: '',
     images: [
       '',
