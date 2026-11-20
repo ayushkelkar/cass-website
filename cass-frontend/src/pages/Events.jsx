@@ -99,18 +99,18 @@ const EVENTS = [
   {
     // hack8 is this
     id: '6',
-    title: 'Circuitry',
+    title: 'CircuitX',
     status: 'upcoming',
-    date: 'December 2026',
-    location: 'BMSITM, Bengaluru',
+    date: 'PPT Submission: 20-30 November 2026; Grand Finale: 19-20 December',
+    location: 'APJ Abdul Kalam Lab, BMSITM, Bengaluru',
     description:
-      'A 24-hour pure hardware hackathon with different domains. Check back later for more details!',
-    image: '',
+      'A 16-hour overnight hackathon where you choose the problem, shape the solution and build through the night.',
+    image: '/events/hack8/Banner.jpg',
     images: [
       '',
     ],
     
-    registrationLink: '#',
+    registrationLink: 'https://unstop.com/hackathons/circuitx-bms-institute-of-technology-and-management-bmsitm-bangalore-1811526?utm_medium=Share&utm_source=ieeebms52611&utm_campaign=Online_coding_challenge',
   },
 ];
 
